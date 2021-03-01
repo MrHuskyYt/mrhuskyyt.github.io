@@ -16,7 +16,6 @@
 }
 
 html {
-  scroll-behavior: fast;
   height: 100%;
 }
 
@@ -117,6 +116,16 @@ mc_text_s {
   margin: 20px;
   width: 200;
   height: 200;
+}
+
+.intro {
+  background-image: url("bg.png");
+  background-size: cover;
+  height: fit-content;
+  min-height: 100%;
+  width: fit-content;
+  padding-top: 80px;
+  margin: 0;
 }
 
 @media screen and (max-width: 800px) {
