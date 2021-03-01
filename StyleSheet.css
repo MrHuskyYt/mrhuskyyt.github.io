@@ -1,5 +1,20 @@
 @charset "utf-8";
 
+@font-face {
+  font-family: "Minecraft";
+  src: url("MinecraftRegular-Bmg3.otf");
+}
+
+@font-face {
+  font-family: "Segoe Script";
+  src: url("segoesc.ttf");
+}
+
+@font-face {
+  font-family: "Segoe UI";
+  src: url("Segoe-UI.ttf");
+}
+
 html {
   scroll-behavior: fast;
   height: 100%;
@@ -84,14 +99,12 @@ code_text {
 
 mc_text {
   font-family: "Minecraft";
-  font-variant: normal;
   color: green;
   font-size: 7vw;
 }
 
 mc_text_s {
   font-family: "Minecraft";
-  font-variant: normal;
   color: green;
   font-size: 2vw;
 }
