@@ -128,6 +128,18 @@ mc_text_s {
   margin: 0;
 }
 
+.mc_div {
+  text-align: center;
+  background-image: url("bg_mc.png");
+  background-size: cover;
+  height: fit-content;
+  min-height: 100%;
+  width: fit-content;
+  min-width: 100%;
+  overflow: hidden;
+  padding-top: 80px;
+}
+
 @media screen and (max-width: 800px) {
   h1 {
     font-size: 490%;
