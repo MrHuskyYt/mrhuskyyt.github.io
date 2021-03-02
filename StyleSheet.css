@@ -16,25 +16,29 @@
 }
 
 html {
-  height: 100%;
+  scroll-behavior: smooth;
 }
 
 header {
-  font-family: "Segoe script";
-  color: darkcyan;
+  font-family: "Segoe ui";
+  color: #73d1c8;
+  background-color: rgba(32, 41, 46, 0.36);
+  text-align: right;
+  padding-right: 30px;
 }
 
 footer {
-  font-family: "Segoe print";
-  color: lightgreen;
-  background-color: black;
-  text-align: justify;
+  font-family: "segoe ui";
+  color: #73d1c8;
+  background-color: #20292e;
+  text-align: right;
+  padding-right: 30px;
 }
 
 h1 {
   font-family: "segoe script";
   font-size: 10vw;
-  color: cornflowerblue;
+  color: #82aaff;
   text-align: center;
   line-height: 0.5;
 }
@@ -43,7 +47,7 @@ h2 {
   line-height: 1;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 2vw;
-  color: whitesmoke;
+  color: #dcac59;
   font-weight: 200;
   text-align: center;
 }
@@ -51,7 +55,7 @@ h2 {
 body {
   font-family: "Segoe UI";
   color: whitesmoke;
-  background-color: rgb(20, 19, 29);
+  background-color: #263238;
   background-size: cover;
   height: 100%;
   margin: 0px;
@@ -59,41 +63,20 @@ body {
   background-position: center;
 }
 
-iframe {
-  font-family: "cascadia code";
-  margin-left: 80px;
-  margin-right: 80px;
-  border: 0px;
-}
-
 a {
   font-size: 20px;
-  color: lightcyan;
+  color: inherit;
   line-height: 2;
+  text-decoration: none;
 }
 
-s1 {
-  background-image: url("bg.png");
-}
-
-cat {
-  font-family: "Segoe UI";
-  font-size: 30px;
-  font-weight: 50;
-  color: lightgreen;
-}
-
-subcat {
-  font-family: "Segoe UI";
-  font-size: 25px;
-  font-weight: 50;
-  color: rgb(35, 90, 35);
-}
-
-code_text {
-  font-family: "fira code";
-  color: lightblue;
-  font-weight: 1;
+div {
+  height: 100%;
+  width: fit-content;
+  min-width: 100%;
+  padding-top: 7vw;
+  padding-bottom: 7vw;
+  margin: 0;
 }
 
 mc_text {
@@ -102,10 +85,15 @@ mc_text {
   font-size: 7vw;
 }
 
-mc_text_s {
-  font-family: "Minecraft";
-  color: green;
-  font-size: 2vw;
+cat_head_text {
+  font-family: "montserrat";
+  font-weight: 400;
+  font-size: 6vw;
+  color: #73d1c8;
+}
+
+.pr_content {
+  padding: 1vw 1vw 1vw 1vw;
 }
 
 .mc_mod {
@@ -122,10 +110,15 @@ mc_text_s {
   background-image: url("bg.png");
   background-size: cover;
   height: 100%;
+  min-height: 40vw;
   width: fit-content;
   min-width: 100%;
   padding-top: 80px;
   margin: 0;
+  position: relative;
+  touch-action: none;
+  transform: translate3d(0px, -2px, 0px);
+  transition: all 700ms ease 0s;
 }
 
 .mc_div {
@@ -136,8 +129,47 @@ mc_text_s {
   min-height: 100%;
   width: fit-content;
   min-width: 100%;
-  overflow: hidden;
   padding-top: 80px;
+}
+
+.project_portfolio {
+  display: block;
+  text-align: center;
+  background-color: #263238;
+  background-size: cover;
+  height: fit-content;
+  min-height: 40vw;
+  width: fit-content;
+  min-width: 100%;
+}
+
+.project_portfolio:hover {
+  display: block;
+  text-align: center;
+  background-color: #263238;
+  background-size: cover;
+  height: fit-content;
+  min-height: 40vw;
+  width: fit-content;
+  min-width: 100%;
+  transform: translate3d(0px, -15px, 0px);
+  transition: all 700ms ease 0s;
+}
+
+.info {
+  color: #a7e2ff;
+}
+
+.h_text:hover {
+  color: #30fde9;
+  transition: all 400ms ease 0s;
+}
+
+.code {
+  font-family: "cascadia code";
+  margin-left: 80px;
+  margin-right: 80px;
+  border: 0px;
 }
 
 @media screen and (max-width: 800px) {
