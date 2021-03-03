@@ -70,11 +70,6 @@ body {
   background-position: center;
 }
 
-area {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
 a {
   font-size: 20px;
   color: inherit;
@@ -142,8 +137,12 @@ cat_head_text {
   background-color: #333e44;
 }
 
+.language_project {
+  text-align: center;
+  display: flex;
+}
+
 .project_portfolio {
-  display: block;
   text-align: center;
   background-color: #263238;
   background-size: cover;
@@ -154,18 +153,15 @@ cat_head_text {
   padding-top: 20vh;
 }
 
-/* .project_portfolio:hover {
-  display: block;
-  text-align: center;
-  background-color: #263238;
-  background-size: cover;
-  height: fit-content;
-  min-height: 40vw;
-  width: fit-content;
-  min-width: 100%;
-  transform: translate3d(0px, -15px, 0px);
-  transition: all 700ms ease 0s;
-} */
+.text_block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
 .info {
   color: #a7e2ff;
@@ -185,6 +181,13 @@ cat_head_text {
 
 .type_txt {
   font-family: "fira code";
+  font-size: 4vw;
+}
+
+.project_txt {
+  font-family: "fira code";
+  font-size: 6vw;
+  color: #a7e2ff;
 }
 
 @media screen and (max-width: 800px) {
