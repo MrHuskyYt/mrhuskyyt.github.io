@@ -20,11 +20,14 @@ html {
 }
 
 header {
+  z-index: 100;
   font-family: "Segoe ui";
   color: #73d1c8;
   background-color: rgba(32, 41, 46, 0.36);
   text-align: right;
   padding-right: 30px;
+  position: sticky;
+  top: 0px;
 }
 
 footer {
@@ -71,11 +74,8 @@ a {
 }
 
 div {
-  height: 100%;
   width: fit-content;
   min-width: 100%;
-  padding-top: 7vw;
-  padding-bottom: 7vw;
   margin: 0;
 }
 
@@ -114,9 +114,9 @@ cat_head_text {
   width: fit-content;
   min-width: 100%;
   padding-top: 80px;
+  padding-bottom: 20vh;
   margin: 0;
   position: relative;
-  touch-action: none;
   transform: translate3d(0px, -2px, 0px);
   transition: all 700ms ease 0s;
 }
@@ -141,6 +141,7 @@ cat_head_text {
   min-height: 40vw;
   width: fit-content;
   min-width: 100%;
+  padding-top: 20vh;
 }
 
 /* .project_portfolio:hover {
@@ -174,10 +175,10 @@ cat_head_text {
 
 @media screen and (max-width: 800px) {
   h1 {
-    font-size: 490%;
+    font-size: 15vw;
   }
   h2 {
-    font-size: 150%;
+    font-size: 5vw;
   }
   mc_text {
     font-size: 450%;
@@ -188,5 +189,18 @@ cat_head_text {
   .mc_mod {
     height: 65%;
     width: 65%;
+  }
+
+  .intro {
+    height: fit-content;
+    padding-bottom: 10vh;
+    width: 100vw;
+  }
+
+  .project_portfolio {
+    height: fit-content;
+    min-height: 100vh;
+    width: 100vw;
+    padding-top: 10vh;
   }
 }
