@@ -55,6 +55,10 @@ h2 {
   text-align: center;
 }
 
+img {
+  border-radius: 5px;
+}
+
 body {
   font-family: "Segoe UI";
   color: whitesmoke;
@@ -64,6 +68,11 @@ body {
   margin: 0px;
   padding: 0px;
   background-position: center;
+}
+
+area {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 a {
@@ -121,15 +130,16 @@ cat_head_text {
   transition: all 700ms ease 0s;
 }
 
-.mc_div {
+.language_ {
   text-align: center;
-  background-image: url("bg_mc.png");
   background-size: cover;
   height: fit-content;
   min-height: 100%;
   width: fit-content;
   min-width: 100%;
-  padding-top: 80px;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  background-color: #333e44;
 }
 
 .project_portfolio {
@@ -171,6 +181,10 @@ cat_head_text {
   margin-left: 80px;
   margin-right: 80px;
   border: 0px;
+}
+
+.type_txt {
+  font-family: "fira code";
 }
 
 @media screen and (max-width: 800px) {
