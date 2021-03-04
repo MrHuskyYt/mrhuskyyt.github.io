@@ -245,4 +245,8 @@ cat_head_text {
     width: 100vw;
     padding-top: 10vh;
   }
+
+  .pro_{
+    width: 80%;
+  }
 }
