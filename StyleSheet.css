@@ -77,12 +77,6 @@ a {
   text-decoration: none;
 }
 
-div {
-  width: fit-content;
-  min-width: 100%;
-  margin: 0;
-}
-
 mc_text {
   font-family: "Minecraft";
   color: green;
@@ -135,6 +129,7 @@ cat_head_text {
   padding-top: 5vh;
   padding-bottom: 5vh;
   background-color: #333e44;
+  position: relative;
 }
 
 .language_project {
