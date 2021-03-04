@@ -132,6 +132,36 @@ cat_head_text {
   position: relative;
 }
 
+.project_img{
+  border-radius: 5px;
+  margin: 25px;
+}
+
+.pro_{
+  margin: 30px;
+}
+
+.pro_h2{
+  padding-top: 25px;
+  font-family: 'fira code';
+}
+
+.pro_div{
+  margin: 30px;
+  background-color: #4d585e;
+  height: fit-content;
+  border-radius: 5px;
+}
+
+.pro_img{
+  width: 200px;
+  height: 200px;
+  margin-top: 10px;
+  margin-bottom: 60px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 .language_project {
   text-align: center;
   display: flex;
