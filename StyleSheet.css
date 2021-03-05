@@ -150,7 +150,6 @@ cat_head_text {
   margin: 30px;
   background-color: #4d585e;
   height: fit-content;
-  min-height: 400px;
   border-radius: 5px;
 }
 
