@@ -1,5 +1,4 @@
-function refreshIFrame() {
-    var x = document.getElementById("embed_git");
-    x.contentWindow.location.reload();
-    var t = setTimeout(refreshIFrame, 3000);
+function reload() {
+    document.getElementById('embed_div').src += '';
 }
+embed_div.onclick = reload();
