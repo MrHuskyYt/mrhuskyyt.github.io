@@ -20,6 +20,11 @@
   src: url("fira-code.ttf");
 }
 
+@font-face{
+  font-family:"Montserrat";
+  src: url("Mont.ttf");
+}
+
 html {
   scroll-behavior: smooth;
 }
