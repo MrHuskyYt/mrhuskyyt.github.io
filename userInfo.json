@@ -1,5 +1,15 @@
 {
-    "name_woof": "ACuteWoof",
-    "id" : "000000000001",
-    "tag": "#0001"
+    "users": 
+    [
+    {
+        "name_woof": "ACuteWoof",
+        "id" : "000000000001",
+        "tag": "#4557"
+    },
+    {
+        "name_woof": "Woof",
+        "id": "000000000002",
+        "tag": "#4873"
+    }
+    ]
 }
