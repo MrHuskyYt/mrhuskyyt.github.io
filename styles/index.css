@@ -1,0 +1,31 @@
+:root{
+    font-size: 16px;
+    --bg: #2e3440;
+    --fg: #eceff4;
+    --btn_clr: #3b4252; 
+}
+
+body{
+    background-image: url("../static/images/bg.jpg");
+    background-size: cover;
+}
+
+img.pfp{
+    border-radius: 50%;
+    height: 40vh;
+    width: 40vh;
+
+    transform: translate(-50%, -50%);
+    transition: all 500ms;
+    box-shadow: none;
+}
+
+div.pfp{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+img.pfp:hover{
+    box-shadow: 0 0 50px #5e81ac;
+}
