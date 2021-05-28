@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Arvo";
+  src: url("../static/fonts/arvo/Arvo-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Arvo Bold";
+  src: url("../static/fonts/arvo/Arvo-Bold.ttf");
+}
+
+@font-face{
+  font-family: "Arvo Italic";
+  src: url("../static/fonts/arvo/Arvo-Italic.ttf");
+}
+
+@font-face {
+  font-family: "Arvo Bold Italic";
+  src: url("../static/fonts/arvo/Arvo-BoldItalic.ttf");
+}
+
+@font-face{
+  font-family: "Fira Code";
+  src: url("../static/fonts/fira-code/FiraCode-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("../static/fonts/rubik/Rubik.ttf");
+}
