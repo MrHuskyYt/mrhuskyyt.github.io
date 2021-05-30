@@ -2,12 +2,16 @@ function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-function displayBlock(block){
+async function displayBlock(block){
+  block.style.display = 'block';
+  await sleep(500)
   block.style.opacity = 1;
 }
 
-function hideBlock(block){
-  block.style.opacity = 1;
+async function hideBlock(block){
+  block.style.opacity = 0;
+  await sleep(500)
+  block.style.display = 'none';
 }
 
 async function displayCircledList(){
@@ -28,20 +32,4 @@ async function hideCircledList(){
   hideBlock(document.getElementById("tr"));
   await sleep(300);
   hideBlock(document.getElementById("tl"));
-}
-
-async function displayGithub(){
-  
-}
-
-async function displayYoutube(){
-
-}
-
-async function displayDiscord(){
-
-}
-
-async function displayTopProject(){
-
 }

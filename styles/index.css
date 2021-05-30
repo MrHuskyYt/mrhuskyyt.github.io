@@ -97,8 +97,8 @@ div.place-holder div{
 
 section.contents{
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 
   opacity: 1;
   transition: all 500ms ease-in-out;
@@ -109,7 +109,6 @@ section.contents{
 
   height: 40vh;
   width: 40vh;
-
 
   position: fixed;
   top: 50%;
@@ -131,4 +130,29 @@ section.contents div:hover{
   box-shadow: none;
 }
 
-/* end content placeholders */
+section.contents *:hover{
+  box-shadow: none;
+}
+
+section.contents h1{
+  text-align: center;
+}
+
+section.contents h2,h4 {
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;     
+  color: rgba(255,255,255,.70);
+}
+
+/* Animation */
+section.contents h2,h4 {
+  animation: animated-text 2s steps(29,end) 1s 1 normal both;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 472px;}
+}
