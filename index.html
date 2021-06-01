@@ -12,24 +12,11 @@
 
   <body>
 
-    <div class="place-holder" onmousewheel="hideCircledList()">
+    <div class="place-holder">
 
-      <div class="card-top-left" id="tl" onmouseover="displayGithub()" onclick="window.open('./github')">
-        Github
-      </div>
-      <div class="card-top-right" id="tr" onmouseover="displayYoutube()" onclick="window.open('./youtube')">
-        Youtube
-      </div>
-      <div class="card-bottom-left" id="bl" onmouseover="displayDiscord()" onclick="window.open('./discord')">
-        Discord
-      </div>
-      <div class="card-bottom-right" id="br" onmouseover="displayTopProject()" onclick="window.open('./projects')">
-        Projects
-      </div>
-
-      <section class='contents' id='root' onmouseover="displayCircledList()">
+      <section class='contents' id='root'>
 	 
-        <img class='pfp' src="https://avatars.githubusercontent.com/acutewoof" onclick='window.open("https://github.com/acutewoof")'>
+      <img class='pfp' src="https://avatars.githubusercontent.com/acutewoof" onclick='window.open("./projects")' onmouseover="displayGithub()">
 
       </section>
 

@@ -1,4 +1,4 @@
-@import url("fonts.css");
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&display=swap');
 
 :root{
   font-size: 16px;
@@ -16,7 +16,7 @@ body{
   background-repeat: no-repeat;
   background-color: var(--bg);
   color: var(--fg);
-  font-family: "Fira Code";
+  font-family: 'JetBrains Mono', monospace;
 }
 
 div{
@@ -138,15 +138,14 @@ section.contents h1{
   text-align: center;
 }
 
-section.contents h2,h4 {
+section.contents h1,h4 {
   text-align: center;
   white-space: nowrap;
   overflow: hidden;     
-  color: rgba(255,255,255,.70);
 }
 
 /* Animation */
-section.contents h2,h4 {
+section.contents h1,h4 {
   animation: animated-text 2s steps(29,end) 1s 1 normal both;
 }
 
