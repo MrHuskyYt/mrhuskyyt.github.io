@@ -9,7 +9,8 @@ function getAllDocuments() {
 
 		const ignore_docs = [
 			"LICENSE",
-			"README"
+			"README",
+			".gitignore"
 		];
 
 		const data = JSON.parse(this.response);
