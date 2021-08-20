@@ -1,0 +1,42 @@
+:root{
+	font-size: 16px;
+	font-family: monospace;
+	--bg: #212529;
+	--fg: #fefefe;
+	--heading: #35bf5c;
+	--url-hover: #2b4443;
+	--url-clicked: #15b1a0;
+}
+
+
+body {
+	background: var(--bg);
+	color: var(--fg);
+	margin: 2vw;
+}
+
+h1{
+	text-align: center;
+	color: var(--heading);
+	margin: 3rem;
+	text-transform: uppercase;
+}
+
+a {
+	color: var(--fg);
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	color: var(--url-hover);
+}
+
+a:active {
+	color: var(--url-clicked);
+}
+
+li {
+	margin: 1rem;
+	list-style: none;
+}
