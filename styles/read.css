@@ -1,5 +1,4 @@
 @import url("doclist.css");
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 :root{
 	--code-bg: #15161a;
@@ -11,7 +10,7 @@ img {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: sans-serif;
 }
 
 h1 {
