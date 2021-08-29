@@ -2,14 +2,143 @@
 <html>
   <head>
     <meta charset="UTF-8" />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/terminal.css@0.7.2/dist/terminal.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/terminal.css@0.7.1/dist/terminal.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/terminal.css@0.7.1/dist/terminal.min.css"
+    />
     <style>
       @import url("styles/index.css");
     </style>
-    <script>
-      window.location.href =
-        "read/d/index.html?d=https://raw.githubusercontent.com/ACuteWoof/docs/main/About Me.md";
-    </script>
   </head>
 
-  <body></body>
+  <body class="terminal">
+    <div class="container">
+      <nav class="terminal-menu">
+        <ul vocab="https://schema.org/" typeof="BreadcrumbList">
+          <li>
+            <a href="./#Who Am I" class="menu-item"><span>About Me</span></a
+            ><meta property="position" />
+          </li>
+          <li property="itemListElement" typeof="ListItem">
+            <a
+              href="./#Hobbies"
+              property="item"
+              typeof="WebPage"
+              class="menu-item"
+              ><span property="name">Hobbies</span></a
+            ><meta property="position" content="1" />
+          </li>
+          <li property="itemListElement" typeof="ListItem">
+            <a
+              href="./#Projects"
+              property="item"
+              typeof="WebPage"
+              class="menu-item"
+              ><span property="name">Projects</span></a
+            ><meta property="position" content="2" />
+          </li>
+          <li property="itemListElement" typeof="ListItem">
+            <a
+              href="./#Contact"
+              property="item"
+              typeof="WebPage"
+              class="menu-item"
+              ><span property="name">Contact</span></a
+            ><meta property="position" content="3" />
+          </li>
+          <li style="height: 28px"><span></span></li>
+        </ul>
+      </nav>
+      <section id="Who am I">
+        <div class="terminal-card">
+          <header>Who am I</header>
+          <div style="padding: 1rem">
+            Hello there! I'm Woof, a 5D creature who lives in the woofverse and
+            has "supernatural" abilities compared to hoomans!
+            <br />
+            I'm also a 13 year old programmerWoof who loves programming and is a
+            Linux fanboy!
+          </div>
+        </div>
+      </section>
+      <section id="Hobbies">
+        <div class="terminal-card">
+          <header>Hobbies</header>
+          <div>
+            <ul>
+              <li>Programming</li>
+              <li>Jammin'</li>
+              <li>Ricing</li>
+              <li>Youtubing</li>
+              <li>Playing Minecraft</li>
+              <li>IDK Roaming Around?</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section id="Projects">
+        <div class="terminal-card">
+          <header>Projects</header>
+          <div>
+            <ul id="projects"></ul>
+          </div>
+        </div>
+      </section>
+      <section id="Repositories">
+        <div class="terminal-card">
+          <header>Repositories - Github</header>
+          <div>
+            <ul id="repos"></ul>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section id="Resources">
+        <div class="terminal-card">
+          <header>Resources I Use</header>
+          <div>
+            <h6>Processor</h6>
+            <p>Intel Core i3-10100</p>
+            <h6>Memory</h6>
+            <p>8GB 2666MHz Single Channel</p>
+            <h6>Display</h6>
+            <p>AOC E970Sw 768p 18"</p>
+            <h6>OS</h6>
+            <p>Manjaro Linux</p>
+            <h6>Text Editor</h6>
+            <p>vim</p>
+            <h6>Video Editor</h6>
+            <p>Kdenpve</p>
+            <h6>Screen Recorder</h6>
+            <p>OBS</p>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section id="Contact">
+        <div class="terminal-card">
+          <header>Contact Me</header>
+          <div>
+            <p>
+              You can contact me on my
+              <a href="https://discord.gg/9ZBmZYVrD3">Discord Server</a> and not
+              anywhere else online as of now.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="scripts/repos.js"></script>
+  </body>
 </html>
