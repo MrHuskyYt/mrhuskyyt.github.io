@@ -2,66 +2,36 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-
+    <title>ACuteWoof</title>
     <link
+      href="https://unpkg.com/nord-highlightjs@0.1.0/dist/nord.css"
       rel="stylesheet"
-      href="https://unpkg.com/terminal.css@0.7.2/dist/terminal.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/terminal.css@0.7.1/dist/terminal.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/terminal.css@0.7.1/dist/terminal.min.css"
+      type="text/css"
     />
     <style>
       @import url("styles/index.css");
     </style>
   </head>
 
-  <body class="terminal">
+  <body>
     <div class="container">
-      <nav class="terminal-menu">
-        <ul vocab="https://schema.org/" typeof="BreadcrumbList">
-          <li>
-            <a href="./#Who Am I" class="menu-item"><span>About Me</span></a
-            ><meta property="position" />
-          </li>
-          <li property="itemListElement" typeof="ListItem">
-            <a
-              href="./#Hobbies"
-              property="item"
-              typeof="WebPage"
-              class="menu-item"
-              ><span property="name">Hobbies</span></a
-            ><meta property="position" content="1" />
-          </li>
-          <li property="itemListElement" typeof="ListItem">
-            <a
-              href="./#Projects"
-              property="item"
-              typeof="WebPage"
-              class="menu-item"
-              ><span property="name">Projects</span></a
-            ><meta property="position" content="2" />
-          </li>
-          <li property="itemListElement" typeof="ListItem">
-            <a
-              href="./#Contact"
-              property="item"
-              typeof="WebPage"
-              class="menu-item"
-              ><span property="name">Contact</span></a
-            ><meta property="position" content="3" />
-          </li>
-          <li style="height: 28px"><span></span></li>
-        </ul>
-      </nav>
-      <section id="Who am I">
-        <div class="terminal-card">
-          <header>Who am I</header>
-          <div style="padding: 1rem">
+      <section id="Who am I" class="main">
+        <div class="custom-shape-divider-top-1630313919">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+              class="shape-fill"
+            ></path>
+          </svg>
+        </div>
+        <div class="main">
+          <h1>Who am I</h1>
+          <div>
             Hello there! I'm Woof, a 13 year old programmer who loves
             programming and is a Linux fanboy!
             <br />
@@ -69,88 +39,33 @@
           </div>
         </div>
       </section>
-      <section id="Hobbies">
-        <div class="terminal-card">
-          <header>Hobbies</header>
-          <div>
-            <ul>
-              <li>Programming</li>
-              <li>Jamming</li>
-              <li>Ricing</li>
-              <li>Youtubing</li>
-              <li>Playing Minecraft</li>
-              <li>IDK Roaming Around?</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-      <section id="obsessions">
-        <div class="terminal-card">
-          <header>Favourite Songs</header>
-          <div>
-            <ul>
-              <li>In The End by Linkin Park</li>
-              <li>Numb by Linkin Park</li>
-              <li>Demons by Imagine Dragons</li>
-              <li>Birds by Imagine Dragons</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-      <hr />
       <section id="Projects">
-        <div class="terminal-card">
-          <header>Projects</header>
-          <div>
-            <ul id="projects"></ul>
-          </div>
+        <div class="custom-shape-divider-top-1630316224">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+              class="shape-fill"
+            ></path>
+          </svg>
         </div>
-      </section>
-      <section id="Repositories">
-        <div class="terminal-card">
-          <header>Repositories - Github</header>
-          <div>
-            <ul id="repos"></ul>
-          </div>
-        </div>
-      </section>
-      <hr />
-      <section id="Resources">
-        <div class="terminal-card">
-          <header>Resources I Use</header>
-          <div>
-            <h6>Processor</h6>
-            <p>Intel Core i3-10100</p>
-            <h6>Memory</h6>
-            <p>8GB 2666MHz Single Channel</p>
-            <h6>Display</h6>
-            <p>AOC E970Sw 768p 18"</p>
-            <h6>OS</h6>
-            <p>Manjaro Linux</p>
-            <h6>Text Editor</h6>
-            <p>vim</p>
-            <h6>Video Editor</h6>
-            <p>Kdenlive</p>
-            <h6>Screen Recorder</h6>
-            <p>OBS</p>
-          </div>
-        </div>
-      </section>
-      <hr />
-      <section id="Contact">
-        <div class="terminal-card">
-          <header>Contact Me</header>
-          <div>
-            <p>
-              You can contact me on my
-              <a href="https://discord.gg/9ZBmZYVrD3">Discord Server</a> and not
-              anywhere else online as of now.
-            </p>
-          </div>
+        <div class="main1">
+          <h1>Projects</h1>
+          <div id="projects"></div>
         </div>
       </section>
     </div>
 
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="scripts/index.js"></script>
     <script src="scripts/repos.js"></script>
   </body>
 </html>

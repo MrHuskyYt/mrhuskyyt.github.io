@@ -1,0 +1,56 @@
+.custom-shape-divider-top-1630313919 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1630313919 svg {
+  position: relative;
+  display: block;
+  width: calc(137% + 1.3px);
+  height: 147px;
+}
+
+.custom-shape-divider-top-1630313919 .shape-fill {
+  fill: var(--nord3);
+}
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+  .custom-shape-divider-top-1630313919 svg {
+    width: calc(137% + 1.3px);
+    height: 85px;
+  }
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .custom-shape-divider-top-1630313919 svg {
+    width: calc(137% + 1.3px);
+    height: 56px;
+  }
+}
+
+/*NEXT*/
+.custom-shape-divider-top-1630316224 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1630316224 svg {
+  position: relative;
+  display: block;
+  width: calc(117% + 1.3px);
+  height: 123px;
+}
+
+.custom-shape-divider-top-1630316224 .shape-fill {
+  fill: var(--nord1);
+}
