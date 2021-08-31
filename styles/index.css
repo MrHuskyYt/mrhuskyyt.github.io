@@ -1,5 +1,6 @@
 @import url("nord.css");
 @import url("curves.css");
+@import url("https://fonts.googleapis.com/css2?family=Cantarell&display=swap");
 
 :root {
   font-size: 24px;
@@ -16,7 +17,7 @@ body {
   background: var(--nord0);
   color: var(--nord6);
   margin: 0;
-  font-family: "Cantarell";
+  font-family: "Cantarell", sans-serif;
 }
 
 section {
