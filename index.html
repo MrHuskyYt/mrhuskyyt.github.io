@@ -1,85 +1,51 @@
-<!DOCTYPE html>
+<!DOCTYPE html5>
 <html>
   <head>
-    <meta charset="UTF-8" />
     <title>ACuteWoof</title>
-    <link
-      href="https://unpkg.com/nord-highlightjs@0.1.0/dist/nord.css"
-      rel="stylesheet"
-      type="text/css"
-    />
     <style>
-      @import url("styles/index.css");
+      @import url("https://acutewoof.github.io/minimalist-css-kit/styles/main.css");
     </style>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-206712115-1"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "UA-206712115-1");
-    </script>
   </head>
-
   <body>
-    <div class="container">
-      <section id="Who am I" class="main">
-        <div class="custom-shape-divider-top-1630313919">
-          <svg
-            data-name="Layer 1"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 1200 120"
-            preserveAspectRatio="none"
-          >
-            <path
-              d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-              class="shape-fill"
-            ></path>
-          </svg>
-        </div>
-        <div class="main">
-          <h1>Hello There! 👋</h1>
-          <div>
-            I'm Woof, a 13 year old programmer who loves programming and a Linux
-            fanboy!
-            <br />
-            Oh, and I like dogs!
-          </div>
-        </div>
-      </section>
-      <section id="Projects">
-        <div class="custom-shape-divider-top-1630316224">
-          <svg
-            data-name="Layer 1"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 1200 120"
-            preserveAspectRatio="none"
-          >
-            <path
-              d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-              class="shape-fill"
-            ></path>
-          </svg>
-        </div>
-        <div class="main1">
-          <h1>Projects</h1>
-          <div id="projects"></div>
-        </div>
-      </section>
-    </div>
-
-    <script
-      src="https://code.jquery.com/jquery-3.6.0.min.js"
-      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-      crossorigin="anonymous"
-    ></script>
-    <script src="scripts/index.js"></script>
-    <script src="scripts/repos.js"></script>
+    <nav>
+      <span class="nav-left"><strong>ACuteWoof</strong></span>
+      <span class="nav-right">
+        <a href="https://github.com/acutewoof">Github</a>
+        <a href="https://www.youtube.com/channel/UCLa0rouVotfUdDtUrlSdcug"
+          >YouTube</a
+        >
+        <a href="https://discord.gg/yuqTZ2T8yk">Discord</a>
+      </span>
+    </nav>
+    <main>
+      <h1>Hello There! 👋</h1>
+      <!--	<div class="logo-container">
+        <img class="logo" src="https://github.com/acutewoof.png" />
+</div> -->
+      <!-- Card thiny -->
+      <div class="card">
+        <h2>About Me</h2>
+        <p>
+          I'm Woof, a programmer who loves to learn and is a FOSS advocate. And
+          who uses proprietary software only when absolutely needed.
+        </p>
+      </div>
+      <div class="card">
+        <h2>Projects</h2>
+        <ul>
+          <li><a href="https://woof-os.github.io">Woof OS</a></li>
+          <li>
+            <a href="https://github.com/acutewoof/iso-profiles"
+              >Manjaro Qtile Edition (Still InDev)</a
+            >
+          </li>
+          <li>
+            <a href="https://github.com/acutewoof/iris-mouse-control"
+              >Iris Tracker</a
+            >
+          </li>
+        </ul>
+      </div>
+    </main>
   </body>
 </html>
