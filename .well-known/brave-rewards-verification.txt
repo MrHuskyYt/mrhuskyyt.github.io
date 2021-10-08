@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: acutewoof.github.io
+Token: cb55b4b3a9c7938a6e615612d9258a348880a35a40fbf006caa3e9e12c478783
