@@ -1,0 +1,76 @@
+@import url("https://acutewoof.github.io/minimalist-css-kit/styles/nord.css");
+
+:root {
+  font-size: 16px;
+}
+
+body {
+  background-color: var(--nord0);
+  background-image: url("./wall.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: var(--nord4);
+  display: grid;
+  grid-template-rows: 2fr 2fr;
+  grid-gap: 2vh;
+  margin: 1rem;
+  max-height: 100vh;
+}
+
+* {
+  font-family: monospace;
+}
+
+.columnhead {
+  display: grid;
+  grid-template-columns: 3fr minmax(100px, 1fr);
+  grid-gap: 3vw;
+}
+
+.column {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 3vw;
+}
+
+img {
+  border-radius: 2vh;
+}
+
+.card {
+  background-color: var(--nord1);
+  border-radius: 2vh;
+  box-shadow: 0 5px 10px 0 var(--nord2);
+  display: inline-block;
+  padding: 2rem;
+  /*  margin: 1rem; */
+}
+
+.card.columnhead {
+  display: grid;
+}
+
+p {
+  text-align: justify;
+}
+
+button {
+  background-color: var(--nord14);
+  border-radius: 5px;
+  border: none;
+  padding: 0.5rem;
+  box-shadow: 0 5px 10px 0 var(--nord0);
+  color: var(--nord1);
+  transition: 300ms ease-in-out;
+  margin: 0.1rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  text-align: center;
+  padding: 2vh;
+  width: 100%;
+}
+
+button:hover {
+  background-color: var(--nord2);
+  color: var(--nord4);
+}
