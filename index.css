@@ -74,3 +74,29 @@ button:hover {
   background-color: var(--nord2);
   color: var(--nord4);
 }
+
+@media screen and (max-width: 1000px) {
+  .column,
+  .card.columnhead,
+  body {
+    display: block;
+    margin: 1rem;
+  }
+  body {
+    text-align: center;
+  }
+  .card {
+    width: 90%;
+    margin: 1rem;
+  }
+  img {
+    display: none;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  button {
+    font-size: 2rem;
+    border-radius: 2vw;
+  }
+}
