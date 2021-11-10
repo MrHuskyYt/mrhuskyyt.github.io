@@ -1,4 +1,5 @@
 @import url("https://acutewoof.github.io/minimalist-css-kit/styles/nord.css");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
 
 :root {
   font-size: 16px;
@@ -18,7 +19,7 @@ body {
 }
 
 * {
-  font-family: monospace;
+  font-family: "JetBrains Mono", monospace;
 }
 
 .columnhead {
