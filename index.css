@@ -101,3 +101,12 @@ button:hover {
     border-radius: 2vw;
   }
 }
+
+a {
+  text-decoration: none;
+  color: var(--nord7);
+}
+
+a:hover {
+  text-decoration: underline;
+}
